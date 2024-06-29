@@ -6,6 +6,10 @@ export default function ConditionalRendering() {
   const [active, setActive] = useState("login");
   return (
     <>
+      <h1 style={{ textAlign: "center", border: "1px solid black" }}>
+        Conditional Rendering
+      </h1>
+      <br></br>
       <div
         style={{
           display: "flex",
